@@ -8,7 +8,7 @@
 
     <LinearLayout
         android:layout_width="322dp"
-        android:layout_height="732dp"
+        android:layout_height="0dp"
         android:orientation="vertical"
         android:paddingTop="50px"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -46,21 +46,32 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/textedit"
+                android:padding="0dp">
 
                 <EditText
-                    android:id="@+id/editTextNumber"
+                    android:id="@+id/editWidth"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/textedit"
+                    android:background="@null"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/textedit"
-                    android:text="м" />
+                    android:background="@null"
+                    android:text="м"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -87,21 +98,32 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/textedit"
+                android:padding="0dp">
 
                 <EditText
-                    android:id="@+id/editTextNumber2"
+                    android:id="@+id/editHeight"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/textedit"
+                    android:background="@null"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/textedit"
-                    android:text="м" />
+                    android:background="@null"
+                    android:text="м"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -136,21 +158,32 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/textedit"
+                android:padding="0dp">
 
                 <EditText
-                    android:id="@+id/editTextNumber3"
+                    android:id="@+id/editConsumption"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/textedit"
+                    android:background="@null"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/textedit"
-                    android:text="м" />
+                    android:background="@null"
+                    android:text="м^2/л"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -177,21 +210,32 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/textedit"
+                android:padding="0dp">
 
                 <EditText
-                    android:id="@+id/editTextNumber4"
+                    android:id="@+id/editLayers"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/textedit"
+                    android:background="@null"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/textedit"
-                    android:text="м" />
+                    android:background="@null"
+                    android:text="м"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"/>
             </LinearLayout>
 
         </LinearLayout>
@@ -218,82 +262,85 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:background="@drawable/textedit"
+                android:padding="0dp">
 
                 <EditText
-                    android:id="@+id/editTextNumber6"
+                    android:id="@+id/editVolume"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:background="@drawable/textedit"
+                    android:background="@null"
                     android:ems="10"
-                    android:inputType="number" />
+                    android:inputType="number"
+                    android:layout_margin="5dp"/>
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/gray" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:background="@drawable/textedit"
-                    android:text="м" />
+                    android:background="@null"
+                    android:text="л"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"/>
             </LinearLayout>
 
         </LinearLayout>
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="286dp"
-            android:layout_height="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:text="Запас"
             android:textSize="20sp"
-            android:textStyle="bold"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.376"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.664" />
+            android:textStyle="bold" />
 
-
-        <RadioButton
-            android:id="@+id/radioButton2"
-            android:layout_width="wrap_content"
+        <RadioGroup
+            android:id="@+id/reserve"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="15% запаса"
-            android:textSize="14sp"
-            android:textStyle="normal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.156"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.726" />
+            android:orientation="vertical">
 
-        <RadioButton
-            android:id="@+id/radioButton3"
-            android:layout_width="wrap_content"
+            <RadioButton
+                android:id="@+id/fifteen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15% запаса"
+                android:textSize="14sp"
+                android:textStyle="normal" />
+
+            <RadioButton
+                android:id="@+id/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="10% запаса"
+                android:textSize="14sp"
+                android:textStyle="normal"/>
+
+
+            <RadioButton
+                android:id="@+id/zero"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:text="без запаса"
+                android:textSize="14sp"
+                android:textStyle="normal"
+                android:checked="true"/>
+
+        </RadioGroup>
+
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="10% запаса"
-            android:textSize="14sp"
-            android:textStyle="normal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.156"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.796" />
-
-
-        <RadioButton
-            android:id="@+id/radioButton4"
-            android:layout_width="110dp"
-            android:layout_height="50dp"
-            android:text="без запаса"
-            android:textSize="14sp"
-            android:textStyle="normal"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.156"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.869" />
+            android:text="Вам понадобится... "
+            android:padding="5dp"/>
 
         <Button
             android:id="@+id/button"
@@ -302,12 +349,8 @@
             android:backgroundTint="@color/orange"
             android:text="Рассчитать"
             app:cornerRadius="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.181"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.976" />
+            android:onClick="calculate"
+            android:layout_gravity="center"/>
 
     </LinearLayout>
 
